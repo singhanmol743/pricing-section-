@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    font-family:sans-serif;
+    
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.box{
+    border: 1px solid silver;
+    flex-basis: 20%;
+    align-self: center;
+    text-align: center;
+    
+}
+#box-2{
+   border: 2px solid silver;
+   box-shadow: 20px  rgb(158, 140, 140);
+}
+h2{
+    color: antiquewhite;
+    background-color: black;
+    margin-top: 0;
+    line-height: 100px;
+}
+
+hr{
+    color: silver;
+}
+
+button{
+     background-color: rgb(94, 173, 94);   
+   margin-bottom: 20px;
+   margin-top: 20px;
+   
+   height: 30px;
+}
